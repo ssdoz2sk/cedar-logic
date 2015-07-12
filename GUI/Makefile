@@ -1,5 +1,5 @@
 
-INCLUDES=$(shell wx-config-2.8 --cflags)
+INCLUDES=$(shell wx-config --cflags)
 INCLUDES+=-I/usr/include/boost
 INCLUDES+=-I../tinyxml2
 INCLUDES+=$(shell pkg-config gdk-2.0 --cflags) $(shell pkg-config libxml++-2.6 --cflags)
@@ -17,7 +17,7 @@ OBJS+= GLFont/glfont2.o klsCollisionChecker.o  OscopeFrame.o
 OBJS+= GUICanvas.o klsGLCanvas.o PaletteCanvas.o XMLParser.o
 OBJS+= GUICircuit.o klsMiniMap.o PaletteFrame.o
 OBJS+= RamPopupDialog.o Z80PopupDialog.o ADCPopupDialog.o EditRegDialog.o
-OBJS+= unix-glmem.o wx-glmem.o algebra.o images.o AppSettings.o
+OBJS+= unix-glmem.o wx-glmem.o algebra.o AppSettings.o #images.o
 
 all: $(OBJS)
 

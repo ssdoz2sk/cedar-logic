@@ -1,5 +1,5 @@
 
-CXXFLAGS=$(shell wx-config-2.8 --cflags)
+CXXFLAGS=$(shell wx-config --cflags)
 CXXFLAGS+=-I/usr/include/boost
 CXXFLAGS+=-Wno-deprecated
 CXXFLAGS+=-DUNIX

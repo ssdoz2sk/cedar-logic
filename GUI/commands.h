@@ -43,7 +43,7 @@ protected:
 	GUICanvas* gCanvas;
 	bool fromString;
 public:
-	klsCommand(bool canUndo = false, const wxString& name = NULL,
+	klsCommand(bool canUndo = false, const wxString& name = *((wxString *) NULL),
 		   GUICircuit *circ = NULL, GUICanvas *canv = NULL,
 		   bool fromString = false) :
 		wxCommand(canUndo, name), gCircuit(circ), gCanvas(canv),
