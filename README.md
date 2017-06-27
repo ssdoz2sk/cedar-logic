@@ -22,3 +22,22 @@ reason to change this, but so far as Emacs is failing to deduce coding
 sometimes, I use now magic signature at first line of every file:
  -*- coding: utf-8-dos -*-. UTF-8 just because now is XXI century, and
 plain-ASCII now is out of fashion.
+
+# Request:
+  * OpenGL
+  * wxWidget: = 2.8 --with-opengl
+  * Boost: >= 1.58
+  * Libxml++: >=2.6
+
+# Todo:
+ - [ ] use CMake for (Windows/Linux)
+ - [ ] i18n
+ - [ ] Test
+ - [ ] Add Debug Mode
+ - [ ] Black Boxes
+
+# Note:
+  [CedarLogic 2.0 Update](http://digitalcommons.cedarville.edu/cgi/viewcontent.cgi?article=1401&context=research_scholarship_symposium)
+  I find new CedarLogic.   
+  But I can't find any sorce code and binary file.   
+  Mnnn...

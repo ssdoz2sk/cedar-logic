@@ -12,7 +12,5 @@ all: tinyxml2/tinyxml2.o
 	make -C Z80
 	g++ -o cedar GUI/GLFont/*.o GUI/*.o logic/*.o Z80/*.o tinyxml2/tinyxml2.o $(LDLIBS) -ggdb3
 
-
-
 library-parse: library-parse.o tinyxml2/tinyxml2.o
 	$(CXX) -o $@ $^

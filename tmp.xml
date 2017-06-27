@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cedar>
+  <gate_lib>././GUI/cl_gatedefs.lib</gate_lib>
+  <help_file>././KLS_Logic.chm</help_file>
+  <font_file>././GUI/GLFont/arial.glf</font_file>
+  <frame>
+    <width>600</width>
+  </frame>
+  <frame>
+    <height>600</height>
+  </frame>
+  <frame>
+    <top>20</top>
+  </frame>
+  <frame>
+    <left>20</left>
+  </frame>
+  <time_per_step>25</time_per_step>
+  <refresh_rate>60</refresh_rate>
+  <wire_conn_radius>0.180000007</wire_conn_radius>
+  <wire_conn_visible>1</wire_conn_visible>
+  <grid_line_visible>1</grid_line_visible>
+  <last_directory></last_directory>
+</cedar>

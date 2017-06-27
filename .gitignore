@@ -16,5 +16,6 @@
 
 # cedar executable itself
 cedar
+corelog.log
 settins.ini
-delete_o.sh
+

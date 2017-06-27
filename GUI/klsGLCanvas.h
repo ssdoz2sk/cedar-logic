@@ -14,6 +14,7 @@
 class klsGLCanvas;
 
 #include "MainApp.h"
+#include "wx/wx.h"
 #include "wx/glcanvas.h"
 #include "klsMiniMap.h"
 // For GLPoint2f:
@@ -62,16 +63,20 @@ enum mouseButton {
 class klsGLCanvas : public wxGLCanvas
 {
 public:
-	klsGLCanvas(wxWindow *parent, const wxString& name = _T("klsGLCanvas"), wxWindowID id = wxID_ANY,
-		     const wxPoint& pos = wxDefaultPosition,
-		     const wxSize& size = wxDefaultSize,
-		     long style = 0);
+	klsGLCanvas(wxWindow *parent, 
+		const wxString& name = _T("klsGLCanvas"), 
+		wxWindowID id = wxID_ANY,
+		const wxPoint& pos = wxDefaultPosition,
+		const wxSize& size = wxDefaultSize,
+		long style = 0);
 	
 	~klsGLCanvas();
 	
 	
 	// Print the canvas contents to a bitmap:
-	wxImage renderToImage(unsigned long width, unsigned long height, unsigned long colorDepth);
+	wxImage renderToImage(unsigned long width,
+		unsigned long height,
+		unsigned long colorDepth);
 //fixme	wxImage renderToImage(unsigned long width, unsigned long height, unsigned long colorDepth = 32, bool noColor = false);
 
 	//TODO: Add some scrollbars and some methods for setting the usable canvas size.

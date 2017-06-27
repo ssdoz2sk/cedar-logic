@@ -1,4 +1,5 @@
 /* -*- coding: utf-8-dos; mode: linux-c++ -*- */
+#include <iostream>
 #include <boost/filesystem.hpp>
 #include <boost/format.hpp>
 #include <boost/lexical_cast.hpp>
