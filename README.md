@@ -28,6 +28,7 @@ plain-ASCII now is out of fashion.
   * wxWidget: = 2.8 --with-opengl
   * Boost: >= 1.58
   * Libxml++: >=2.6
+  * gtest: >= 1.7.0
 
 # Todo:
  - [ ] use CMake for (Windows/Linux)

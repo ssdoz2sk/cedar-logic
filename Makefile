@@ -14,3 +14,6 @@ all: tinyxml2/tinyxml2.o
 
 library-parse: library-parse.o tinyxml2/tinyxml2.o
 	$(CXX) -o $@ $^
+
+test:
+	make -C gtest
